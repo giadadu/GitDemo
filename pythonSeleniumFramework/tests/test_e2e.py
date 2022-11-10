@@ -80,6 +80,7 @@ class TestE2E(BaseClass):
         trade.get_logout_button().click()
         print("my 1st change")
         print("my 2nd change")
+        print("first develop change")
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
         return request.param
