@@ -81,6 +81,7 @@ class TestE2E(BaseClass):
         print("my 1st change")
         print("my 2nd change")
         print("first develop change")
+        print("second develop change")
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
         return request.param
