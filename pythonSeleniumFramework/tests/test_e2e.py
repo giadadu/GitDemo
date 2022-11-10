@@ -78,7 +78,7 @@ class TestE2E(BaseClass):
         # assert check_message in original_message
         # assert original_message == original_notification
         trade.get_logout_button().click()
-
+        print("my 1st change")
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
         return request.param
